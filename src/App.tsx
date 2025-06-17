@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import { ThemeProvider } from 'styled-components'
+
+import Projetos from './containers/Projetos'
+import Sidebar from './containers/Sidebar'
+import Sobre from './containers/Sobre'
+import EstiloGlobal, { Container } from './styles'
+import temaLight from './themes/light'
+import temaDark from './themes/dark'
+import Bubbles from './containers/Bubbles'
 
 function App() {
+  const [useThemeDark, setUseThemeDark] = useState(true)
+  function trocaTema() {
+    setUseThemeDark(!useThemeDark)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={useThemeDark ? temaDark : temaLight}>
+      <EstiloGlobal />
+      <Bubbles />
+      <Container>
+        <Sidebar trocaTema={trocaTema} />
+        <main>
+          <Sobre />
+          <Projetos />
+        </main>
+      </Container>
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App

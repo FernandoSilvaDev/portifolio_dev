@@ -54,6 +54,7 @@ const Sobre = () => {
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grunt/grunt-original.svg" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/eslint/eslint-original.svg" />
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" />
         </div>
       </ContainerIcons>
     </section>

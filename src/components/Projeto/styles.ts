@@ -59,6 +59,7 @@ export const LinkBotao = styled.a`
   display: inline-block; // Para que o botão saia de cima e a largura não expande.
   margin-top: 24px;
   border-radius: 10px;
+  margin-right: 14px;
 
   &:hover {
     background-color: rgb(86, 148, 241);

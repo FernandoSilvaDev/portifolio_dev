@@ -12,6 +12,7 @@ interface ProjetoProps {
   tecnologias?: string
   descricao?: string
   link?: string
+  linkGit?: string
   imagem: string
   imagemExtra?: string
 }
@@ -23,6 +24,7 @@ const Projeto = ({
   tecnologias,
   descricao = '',
   link,
+  linkGit,
   imagem,
   imagemExtra
 }: ProjetoProps) => {
@@ -56,6 +58,9 @@ const Projeto = ({
       </div>
       <LinkBotao href={link} target="_blank">
         {t('Visualizar')}
+      </LinkBotao>
+      <LinkBotao href={linkGit} target="_blank">
+        {t('LinkGit')}
       </LinkBotao>
     </Card>
   )

@@ -41,6 +41,7 @@ export const ContainerLanguage = styled.div`
   display: flex;
   color: #fff;
   align-items: center;
+  margin-bottom: 22px;
 
   p {
     margin: 8px;

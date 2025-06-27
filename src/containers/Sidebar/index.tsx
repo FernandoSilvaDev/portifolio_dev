@@ -40,8 +40,6 @@ const Sidebar = (props: Props) => {
         <Descrição tipo="secundario" fontSize={12}>
           {t('SubTitulo')}
         </Descrição>
-        <Contatos />
-        <BotaoTema onClick={props.trocaTema}>{t('sidebar.tema')}</BotaoTema>
         <ContainerLanguage>
           <BtnLanguage
             className={idiomaAtivo === 'pt' ? 'ativo' : ''}
@@ -57,6 +55,8 @@ const Sidebar = (props: Props) => {
             EN
           </BtnLanguage>
         </ContainerLanguage>
+        <Contatos />
+        <BotaoTema onClick={props.trocaTema}>{t('sidebar.tema')}</BotaoTema>
       </SidebarContainer>
     </aside>
   )

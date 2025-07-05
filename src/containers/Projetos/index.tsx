@@ -11,7 +11,19 @@ const Projetos = () => {
 
   const projetos = [
     {
-      titulo: 'Streaming Disney+ Rogue One.',
+      titulo: 'Store Games',
+      tecnologias:
+        'CSS, JavaScript, EsLisnt, React, Prettier, Redux, Nodejs, Bootstrap',
+      descricao: t('Games'),
+      link: 'https://loja-games-fs.vercel.app/',
+      linkGit: 'https://github.com/FernandoSilvaDev/loja_games',
+      imagem: '/img/Loja_games_01.jpg',
+      imagemExtra: '/img/Loja_games_02.jpg',
+      dataAo: 'fade-up',
+      dataAosAnchorPlacement: 'bottom-bottom'
+    },
+    {
+      titulo: 'Streaming Disney+ Rogue One',
       tecnologias:
         'HTML, CSS, JavaScript, Sass, Grunt, Uglify, Gulp e Bootstrap',
       descricao: t('RogueOne'),

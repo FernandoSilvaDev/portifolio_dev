@@ -8,6 +8,7 @@
   "SaibaMais": "Learn more",
   "Visualizar": "View",
   "LinkGit": "GitHub",
+  "Games": "This is a responsive web application developed with React and Redux Toolkit. It consumes data from an external API using RTK Query to display a game catalog. Users can add items to the cart, view the total number of selected products, and track the total purchase amount in real time.",
   "RogueOne": "A responsive page that simulates Disney Plus navigation, faithfully recreating the design and visual effects of Rogue One. It includes interactive buttons, animations, and configuration options, providing an immersive and intuitive experience.",
   "Ktm": "A dynamic and responsive home page for KTM, featuring an interactive carousel and scroll navigation, ensuring intuitive access to key sections.",
   "Aniversario": "A birthday-themed website with a dynamic countdown leading up to the start of the party. The smooth scroll navigation showcases event attractions, accompanied by animated slides, ensuring an engaging and visually immersive experience.",

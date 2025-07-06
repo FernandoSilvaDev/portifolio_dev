@@ -53,7 +53,7 @@ export const ContainerIcons = styled.div`
 
     img {
       display: inline_block;
-      align: center;
+      align-items: center;
       max-height: 30px;
       max-width: 40px;
       margin-bottom: 16px;

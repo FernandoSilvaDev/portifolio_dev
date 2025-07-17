@@ -13,7 +13,7 @@ const Projetos = () => {
     {
       titulo: 'Store Games',
       tecnologias:
-        'CSS, JavaScript, EsLisnt, React, Prettier, Redux, Nodejs, Bootstrap',
+        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',
       descricao: t('Games'),
       link: 'https://loja-games-fs.vercel.app/',
       linkGit: 'https://github.com/FernandoSilvaDev/loja_games',
@@ -35,6 +35,18 @@ const Projetos = () => {
       dataAosAnchorPlacement: 'bottom-bottom'
     },
     {
+      titulo: 'Lista de contatos',
+      tecnologias:
+        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, React-mask',
+      descricao: t('Contato'),
+      link: 'https://lista-de-contatosfs.vercel.app/',
+      linkGit: 'https://github.com/FernandoSilvaDev/lista_de_contatos',
+      imagem: '/img/Lista_de_contatos_01.jpg',
+      imagemExtra: '/img/Lista_de_contatos_02.jpg',
+      dataAo: 'fade-up',
+      dataAosAnchorPlacement: 'bottom-bottom'
+    },
+    {
       titulo: 'Clone KTM 2023',
       tecnologias: 'HTML, JavaScript, CSS, JQuery e Bootstrap',
       descricao: t('Ktm'),
@@ -42,6 +54,18 @@ const Projetos = () => {
       linkGit: 'https://github.com/FernandoSilvaDev/ktm',
       imagem: '/img/Home_page_KTM_2003.jpg',
       imagemExtra: '/img/Home_page_KTM_2003_02.jpg',
+      dataAo: 'fade-up',
+      dataAosAnchorPlacement: 'bottom-bottom'
+    },
+    {
+      titulo: 'Loja de esportes',
+      tecnologias:
+        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',
+      descricao: t('Esportes'),
+      link: 'https://loja-de-esportesfs.vercel.app/',
+      linkGit: 'https://github.com/FernandoSilvaDev/loja_de_esportes',
+      imagem: '/img/Loja_de_esportes_01.jpg',
+      imagemExtra: '/img/Loja_de_esportes_02.jpg',
       dataAo: 'fade-up',
       dataAosAnchorPlacement: 'bottom-bottom'
     },

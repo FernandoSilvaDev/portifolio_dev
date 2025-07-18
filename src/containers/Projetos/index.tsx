@@ -1,5 +1,6 @@
 import Projeto from '../../components/Projeto'
 import Titulo from '../../components/Titulo'
+import 'animate.css'
 
 import { Lista } from './styles'
 
@@ -19,8 +20,7 @@ const Projetos = () => {
       linkGit: 'https://github.com/FernandoSilvaDev/loja_games',
       imagem: '/img/Loja_games_01.jpg',
       imagemExtra: '/img/Loja_games_02.jpg',
-      dataAo: 'fade-up',
-      dataAosAnchorPlacement: 'bottom-bottom'
+      className: 'animate__animated animate__fadeInUp'
     },
     {
       titulo: 'Streaming Disney+ Rogue One',
@@ -31,13 +31,12 @@ const Projetos = () => {
       linkGit: 'https://github.com/FernandoSilvaDev/Rogue-one-Disney-app',
       imagem: '/img/Home_page Disney_Plus_Rog_One.jpg',
       imagemExtra: '/img/Home_page Disney_Plus_Rog_One_02.jpg',
-      dataAo: 'fade-up',
-      dataAosAnchorPlacement: 'bottom-bottom'
+      className: 'animate__animated animate__fadeInUp'
     },
     {
       titulo: 'Lista de contatos',
       tecnologias:
-        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, React-mask',
+        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, React-mask, Router',
       descricao: t('Contato'),
       link: 'https://lista-de-contatosfs.vercel.app/',
       linkGit: 'https://github.com/FernandoSilvaDev/lista_de_contatos',
@@ -262,6 +261,7 @@ const Projetos = () => {
             key={index}
             data-aos={projeto.dataAo}
             data-aos-anchor-placement={projeto.dataAosAnchorPlacement}
+            className={projeto.className}
           >
             <Projeto
               titulo={projeto.titulo}

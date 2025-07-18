@@ -14,9 +14,9 @@ export const Links = styled.ul`
     &:hover {
       opacity: 50%;
 
+    }
     @media (max-width: 768px) {
       display: inline-block;
       margin-right: 8px;
     }
-  }
 `

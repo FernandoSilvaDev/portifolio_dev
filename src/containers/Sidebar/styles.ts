@@ -46,6 +46,10 @@ export const ContainerLanguage = styled.div`
   p {
     margin: 8px;
   }
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `
 
 //Para que a Sidebar fique fixa no topo da pagina e acompanhe na rolagem.

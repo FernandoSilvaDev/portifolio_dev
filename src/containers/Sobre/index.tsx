@@ -13,7 +13,7 @@ const Sobre = () => {
   const [expandido, setExpandido] = useState(false)
   const textoCompleto = t('Sobre')
 
-  const textoResumido = `${textoCompleto.slice(0, 534)}... `
+  const textoResumido = `${textoCompleto.slice(0, 600)}... `
 
   return (
     <section>
@@ -57,6 +57,7 @@ const Sobre = () => {
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cypressio/cypressio-original.svg" />
         </div>
       </ContainerIcons>
     </section>

@@ -56,18 +56,18 @@ const Projetos = () => {
       dataAo: 'fade-up',
       dataAosAnchorPlacement: 'bottom-bottom'
     },
-    // {
-    //   titulo: 'Loja de esportes',
-    //   tecnologias:
-    //     'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',
-    //   descricao: t('Esportes'),
-    //   link: 'https://loja-de-esportesfs.vercel.app/',
-    //   linkGit: 'https://github.com/FernandoSilvaDev/loja_de_esportes',
-    //   imagem: '/img/Loja_de_esportes_01.jpg',
-    //   imagemExtra: '/img/Loja_de_esportes_02.jpg',
-    //   dataAo: 'fade-up',
-    //   dataAosAnchorPlacement: 'bottom-bottom'
-    // },
+    {
+      titulo: 'Loja de esportes',
+      tecnologias:
+        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',
+      descricao: t('Esportes'),
+      link: 'https://loja-de-esportesfs.vercel.app/',
+      linkGit: 'https://github.com/FernandoSilvaDev/loja_de_esportes',
+      imagem: '/img/Loja_de_esportes_01.jpg',
+      imagemExtra: '/img/Loja_de_esportes_02.jpg',
+      dataAo: 'fade-up',
+      dataAosAnchorPlacement: 'bottom-bottom'
+    },
     {
       titulo: 'Evento contagem regressiva',
       tecnologias: 'HTML, JavaScript, CSS, Parcel e Sass',

@@ -8,6 +8,7 @@ export const Card = styled.div`
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   will-change: transform;
+  height: 100%;
 
   p:first-of-type {
     font-weight: bold;

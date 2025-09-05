@@ -42,7 +42,8 @@ const Projetos = () => {
       linkGit: 'https://github.com/FernandoSilvaDev/Rogue-one-Disney-app',
       imagem: '/img/Home_page Disney_Plus_Rog_One.jpg',
       imagemExtra: '/img/Home_page Disney_Plus_Rog_One_02.jpg',
-      className: 'animate__animated animate__fadeInUp'
+      dataAo: 'fade-up',
+      dataAosAnchorPlacement: 'bottom-bottom'
     },
     {
       titulo: 'Store Games',
@@ -53,7 +54,8 @@ const Projetos = () => {
       linkGit: 'https://github.com/FernandoSilvaDev/loja_games',
       imagem: '/img/Loja_games_01.jpg',
       imagemExtra: '/img/Loja_games_02.jpg',
-      className: 'animate__animated animate__fadeInUp'
+      dataAo: 'fade-up',
+      dataAosAnchorPlacement: 'bottom-bottom'
     },
     {
       titulo: 'Lista de contatos',

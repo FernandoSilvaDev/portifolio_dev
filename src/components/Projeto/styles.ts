@@ -5,10 +5,10 @@ export const Card = styled.div`
   border: 1px solid ${(props) => props.theme.corBorda};
   border-radius: 10px;
   padding: 16px;
+  max-height: 560vh;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   will-change: transform;
-  height: 100%;
 
   p:first-of-type {
     font-weight: bold;

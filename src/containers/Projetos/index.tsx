@@ -12,14 +12,25 @@ const Projetos = () => {
 
   const projetos = [
     {
-      titulo: 'Store Games',
+      titulo: 'Eplay Games',
       tecnologias:
-        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',
-      descricao: t('Games'),
-      link: 'https://loja-games-fs.vercel.app/',
-      linkGit: 'https://github.com/FernandoSilvaDev/loja_games',
-      imagem: '/img/Loja_games_01.jpg',
-      imagemExtra: '/img/Loja_games_02.jpg',
+        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Router, Hash-link, Input-Mask, Yup, Formik and Spinners',
+      descricao: t('Eplay'),
+      link: 'https://eplay-fs.vercel.app/',
+      linkGit: 'https://github.com/FernandoSilvaDev/eplay',
+      imagem: '/img/Eplay_games_01.jpg',
+      imagemExtra: '/img/Eplay_games_02.jpg',
+      className: 'animate__animated animate__fadeInUp'
+    },
+    {
+      titulo: 'Efood',
+      tecnologias:
+        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Router, Input-Mask, Yup, Formik and Spinners',
+      descricao: t('Efood'),
+      link: 'https://efoodfs.vercel.app/',
+      linkGit: 'https://github.com/FernandoSilvaDev/efood',
+      imagem: '/img/Efood_01.jpg',
+      imagemExtra: '/img/Efood_02.jpg',
       className: 'animate__animated animate__fadeInUp'
     },
     {
@@ -31,6 +42,17 @@ const Projetos = () => {
       linkGit: 'https://github.com/FernandoSilvaDev/Rogue-one-Disney-app',
       imagem: '/img/Home_page Disney_Plus_Rog_One.jpg',
       imagemExtra: '/img/Home_page Disney_Plus_Rog_One_02.jpg',
+      className: 'animate__animated animate__fadeInUp'
+    },
+    {
+      titulo: 'Store Games',
+      tecnologias:
+        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',
+      descricao: t('Games'),
+      link: 'https://loja-games-fs.vercel.app/',
+      linkGit: 'https://github.com/FernandoSilvaDev/loja_games',
+      imagem: '/img/Loja_games_01.jpg',
+      imagemExtra: '/img/Loja_games_02.jpg',
       className: 'animate__animated animate__fadeInUp'
     },
     {
@@ -193,17 +215,17 @@ const Projetos = () => {
       dataAo: 'fade-up',
       dataAosAnchorPlacement: 'bottom-bottom'
     },
-    {
-      titulo: 'Galeria de fotos',
-      tecnologias: 'HTML, JavaScript e CSS, JQuery',
-      descricao: t('Galeria'),
-      link: 'https://galeria-fotos-mu.vercel.app/',
-      linkGit: 'https://github.com/FernandoSilvaDev/galeria_fotos',
-      imagem: '/img/Galeria_de_fotos_01.jpg',
-      imagemExtra: '/img/Galeria_de_fotos_02.jpg',
-      dataAo: 'fade-up',
-      dataAosAnchorPlacement: 'bottom-bottom'
-    },
+    // {
+    //   titulo: 'Galeria de fotos',
+    //   tecnologias: 'HTML, JavaScript e CSS, JQuery',
+    //   descricao: t('Galeria'),
+    //   link: 'https://galeria-fotos-mu.vercel.app/',
+    //   linkGit: 'https://github.com/FernandoSilvaDev/galeria_fotos',
+    //   imagem: '/img/Galeria_de_fotos_01.jpg',
+    //   imagemExtra: '/img/Galeria_de_fotos_02.jpg',
+    //   dataAo: 'fade-up',
+    //   dataAosAnchorPlacement: 'bottom-bottom'
+    // },
     {
       titulo: 'Portfolio Personagens 3D',
       tecnologias: 'HTML e CSS',
@@ -234,17 +256,6 @@ const Projetos = () => {
       linkGit: 'https://github.com/FernandoSilvaDev/modelo_email',
       imagem: '/img/Exemplo_Email_Page.jpg',
       imagemExtra: '/img/Exemplo_Email_Page_02.jpg',
-      dataAo: 'fade-up',
-      dataAosAnchorPlacement: 'bottom-bottom'
-    },
-    {
-      titulo: 'Formulario com mask JQuery',
-      tecnologias: 'HTML, JavaScript, CSS e JQuery',
-      descricao: t('Formulario'),
-      link: 'https://formulario-mask-plugins.vercel.app/',
-      linkGit: 'https://github.com/FernandoSilvaDev/formulario_mask_plugins',
-      imagem: '/img/Formulario_mask_01.jpg',
-      imagemExtra: '/img/Formulario_mask_02.jpg',
       dataAo: 'fade-up',
       dataAosAnchorPlacement: 'bottom-bottom'
     }

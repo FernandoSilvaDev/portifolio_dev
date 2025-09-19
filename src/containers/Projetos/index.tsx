@@ -46,6 +46,16 @@ const Projetos = () => {
       dataAosAnchorPlacement: 'bottom-bottom'
     },
     {
+      titulo: 'Modelo Processo de dados Python ',
+      tecnologias: 'Python',
+      descricao: t('DateProcess'),
+      linkGit: 'https://github.com/FernandoSilvaDev/date_process_python',
+      imagem: '/img/Process_date_01.jpg',
+      imagemExtra: '/img/Process_date_02.jpg',
+      dataAo: 'fade-up',
+      dataAosAnchorPlacement: 'bottom-bottom'
+    },
+    {
       titulo: 'Store Games',
       tecnologias:
         'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',

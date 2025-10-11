@@ -58,6 +58,12 @@ const Sobre = () => {
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cypressio/cypressio-original.svg" />
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" />
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/centos/centos-original.svg" />
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" />
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" />
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" />
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" />
         </div>
       </ContainerIcons>
     </section>

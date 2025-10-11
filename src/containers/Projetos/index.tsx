@@ -290,9 +290,9 @@ const Projetos = () => {
               titulo={projeto.titulo}
               tecnologias={projeto.tecnologias}
               descricao={projeto.descricao}
-              link={typeof projeto.link === 'string' ? projeto.link : '#'}
+              link={typeof projeto.link === 'string' ? projeto.link : ''}
               linkGit={
-                typeof projeto.linkGit === 'string' ? projeto.linkGit : '#'
+                typeof projeto.linkGit === 'string' ? projeto.linkGit : ''
               }
               imagem={projeto.imagem}
               imagemExtra={projeto.imagemExtra}

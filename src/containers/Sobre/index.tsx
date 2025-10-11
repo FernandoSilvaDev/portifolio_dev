@@ -13,7 +13,7 @@ const Sobre = () => {
   const [expandido, setExpandido] = useState(false)
   const textoCompleto = t('Sobre')
 
-  const textoResumido = `${textoCompleto.slice(0, 600)}... `
+  const textoResumido = `${textoCompleto.slice(0, 1395)}... `
 
   return (
     <section>

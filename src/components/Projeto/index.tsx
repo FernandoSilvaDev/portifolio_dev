@@ -56,9 +56,12 @@ const Projeto = ({
           <img className="imagem-extra" src={imagemExtra || ''} alt={titulo} />
         )}
       </div>
-      <LinkBotao href={link} target="_blank">
-        {t('Visualizar')}
-      </LinkBotao>
+      {/* Condição caso o botão não tenha link o botão não é rederizado. */}
+      {link && link.trim() !== '' && (
+        <LinkBotao href={link} target="_blank">
+          {t('Visualizar')}
+        </LinkBotao>
+      )}
       <LinkBotao href={linkGit} target="_blank">
         {t('LinkGit')}
       </LinkBotao>

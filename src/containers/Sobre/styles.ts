@@ -4,6 +4,7 @@ export const SobreMim = styled.div`
   display: grid;
   grid-template-columns: 1.3fr 1fr;
   align-items: center;
+  margin-bottom: 16px;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;

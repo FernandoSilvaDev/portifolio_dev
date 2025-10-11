@@ -48,7 +48,8 @@ const Projetos = () => {
     {
       titulo: 'Modelo Processo de dados Python ',
       tecnologias: 'Python',
-      descricao: t('DateProcess'),
+      descricao: t('DataProcess'),
+      link: null,
       linkGit: 'https://github.com/FernandoSilvaDev/date_process_python',
       imagem: '/img/Process_date_01.jpg',
       imagemExtra: '/img/Process_date_02.jpg',

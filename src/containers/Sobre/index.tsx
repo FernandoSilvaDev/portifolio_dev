@@ -38,7 +38,7 @@ const Sobre = () => {
         </GithubSecao>
       </SobreMim>
 
-      <ContainerIcons>
+      {/* <ContainerIcons>
         <div className="icons animate__animated animate__slideInLeft">
           <img
             title="JavaScript"
@@ -137,7 +137,7 @@ const Sobre = () => {
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
           />
         </div>
-      </ContainerIcons>
+      </ContainerIcons> */}
     </section>
   )
 }

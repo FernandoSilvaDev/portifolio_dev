@@ -56,18 +56,18 @@ const Projetos = () => {
       dataAo: 'fade-up',
       dataAosAnchorPlacement: 'bottom-bottom'
     },
-    {
-      titulo: 'Store Games',
-      tecnologias:
-        'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',
-      descricao: t('Games'),
-      link: 'https://loja-games-fs.vercel.app/',
-      linkGit: 'https://github.com/FernandoSilvaDev/loja_games',
-      imagem: '/img/Loja_games_01.jpg',
-      imagemExtra: '/img/Loja_games_02.jpg',
-      dataAo: 'fade-up',
-      dataAosAnchorPlacement: 'bottom-bottom'
-    },
+    // {
+    //   titulo: 'Store Games',
+    //   tecnologias:
+    //     'Styles, JavaScript, TypeScript, EsLisnt, React, Prettier, Redux, Bootstrap',
+    //   descricao: t('Games'),
+    //   link: 'https://loja-games-fs.vercel.app/',
+    //   linkGit: 'https://github.com/FernandoSilvaDev/loja_games',
+    //   imagem: '/img/Loja_games_01.jpg',
+    //   imagemExtra: '/img/Loja_games_02.jpg',
+    //   dataAo: 'fade-up',
+    //   dataAosAnchorPlacement: 'bottom-bottom'
+    // },
     {
       titulo: 'Lista de contatos',
       tecnologias:
